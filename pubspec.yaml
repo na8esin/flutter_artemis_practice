@@ -33,6 +33,7 @@ dependencies:
   json_annotation: ^4.3.0
   equatable: ^2.0.3
   gql: ^0.13.1-alpha
+  gql_http_link: ^0.4.2-alpha
 
 
   # The following adds the Cupertino Icons font to your application.

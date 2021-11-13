@@ -264,19 +264,19 @@ packages:
     source: hosted
     version: "0.3.2-alpha+1635885531651"
   gql_http_link:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: gql_http_link
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.0"
+    version: "0.4.2-alpha+1635885531688"
   gql_link:
     dependency: transitive
     description:
       name: gql_link
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.0"
+    version: "0.4.2-alpha+1635885531659"
   graphs:
     dependency: transitive
     description:
