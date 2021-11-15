@@ -57,10 +57,12 @@ class BigQuery$Query$Pokemon extends JsonSerializable with EquatableMixin {
 
   List<String?>? types;
 
+  String? image;
+
   List<BigQuery$Query$Pokemon$Evolutions?>? evolutions;
 
   @override
-  List<Object?> get props => [number, name, types, evolutions];
+  List<Object?> get props => [number, name, types, image, evolutions];
   @override
   Map<String, dynamic> toJson() => _$BigQuery$Query$PokemonToJson(this);
 }
@@ -158,6 +160,12 @@ final BIG_QUERY_QUERY_DOCUMENT = DocumentNode(definitions: [
                   selectionSet: null),
               FieldNode(
                   name: NameNode(value: 'types'),
+                  alias: null,
+                  arguments: [],
+                  directives: [],
+                  selectionSet: null),
+              FieldNode(
+                  name: NameNode(value: 'image'),
                   alias: null,
                   arguments: [],
                   directives: [],

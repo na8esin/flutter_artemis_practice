@@ -7,6 +7,7 @@ query big_query($quantity: Int!) {
     number
     name
     types
+    image
     evolutions: evolutions {
       number
       name

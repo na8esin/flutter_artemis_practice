@@ -41,6 +41,7 @@ BigQuery$Query$Pokemon _$BigQuery$Query$PokemonFromJson(
       ..name = json['name'] as String?
       ..types =
           (json['types'] as List<dynamic>?)?.map((e) => e as String?).toList()
+      ..image = json['image'] as String?
       ..evolutions = (json['evolutions'] as List<dynamic>?)
           ?.map((e) => e == null
               ? null
@@ -54,6 +55,7 @@ Map<String, dynamic> _$BigQuery$Query$PokemonToJson(
       'number': instance.number,
       'name': instance.name,
       'types': instance.types,
+      'image': instance.image,
       'evolutions': instance.evolutions?.map((e) => e?.toJson()).toList(),
     };
 
